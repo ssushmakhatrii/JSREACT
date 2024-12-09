@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Loop Example</title>
+</head>
+<body>
+  <h1>For Loop Example</h1>
+  <ul id="for-loop"></ul>
+
+  <script>
+    const forLoopList = document.getElementById('for-loop');
+    for (let i = 1; i <= 5; i++) {
+      const li = document.createElement('li');
+      li.textContent = `Iteration ${i}`;
+      forLoopList.appendChild(li);
+    }
+  </script>
+</body>
+</html>

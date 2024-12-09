@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Greatest</title>
+</head>
+<body>
+    <script>
+        let x = 40;
+        let y = 100;
+        let z = 50;
+        let w = 120; 
+
+        if (x > y && x > z && x > w) {
+            console.log("x is the greatest among x, y, z, and w: x = " + x);
+        } else if (y > x && y > z && y > w) {
+            console.log("y is the greatest among x, y, z, and w: y = " + y);
+        } else if (z > x && z > y && z > w) {
+            console.log("z is the greatest among x, y, z, and w: z = " + z);
+        } else if (w > x && w > y && w > z) {
+            console.log("w is the greatest among x, y, z, and w: w = " + w);
+        } else {
+            console.log("There is a tie among the numbers.");
+        }
+    </script>
+</body>
+</html>

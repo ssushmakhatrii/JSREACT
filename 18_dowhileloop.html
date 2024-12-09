@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do-While Loop Example</title>
+</head>
+<body>
+  <h1>Do-While Loop Example</h1>
+  <ul id="do-while-loop"></ul>
+
+  <script>
+    const doWhileLoopList = document.getElementById('do-while-loop');
+    let index = 1;
+    do {
+      const li = document.createElement('li');
+      li.textContent = `Iteration ${index}`;
+      doWhileLoopList.appendChild(li);
+      index++;
+    } while (index <= 5);
+  </script>
+</body>
+</html>
